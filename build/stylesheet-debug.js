@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-stylesheet@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 06:43:35 GMT
+*/
 modulex.add("stylesheet", ["dom"], function(require, exports, module) {
 var dom = require("dom");
 /*
@@ -170,6 +175,7 @@ stylesheet = function (exports) {
   }
   // # ------------------ private end
   exports = StyleSheet;
+  StyleSheet.version = '1.0.1';
   return exports;
 }();
 module.exports = stylesheet;
