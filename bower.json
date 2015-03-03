@@ -1,25 +1,13 @@
 {
     "name": "modulex-stylesheet",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/stylesheet.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-dom": "modulex-dom#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-dom": "modulex/dom#1.x"
     },
     "devDependencies": {
-        "modulex-node": "modulex-node#master"
+        "modulex-node": "modulex/node#master"
     }
 }
